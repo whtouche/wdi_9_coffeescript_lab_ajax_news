@@ -21,6 +21,10 @@ gem 'spring', group: :development
 gem 'devise'
 gem 'validate_url'
 
+group :development do
+  gem 'coffee-rails-source-maps'
+end
+
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry-rails'
